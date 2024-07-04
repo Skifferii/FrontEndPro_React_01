@@ -1,9 +1,12 @@
 import "./App.css";
+import Button from "./components/Button/Button";
 
 function App() {
   return (
     <div className="App">
-      <p>Meine erste React App</p>
+      <Button />
+      <Button />
+      <Button />
     </div>
   );
 }
