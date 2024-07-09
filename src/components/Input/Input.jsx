@@ -1,10 +1,11 @@
 import "./styles.css";
 
-function input({ label, type, name, placeholder }) {
+function input({ label, type, name, placeholder, id }) {
   return (
     <div className="input-container">
-      <label>{label}</label>
+      <label htmlFor={id}>{label}</label>
       <input
+        id={id}
         name={name}
         type={type}
         placeholder={placeholder}
@@ -14,4 +15,5 @@ function input({ label, type, name, placeholder }) {
   );
 }
 
+// eslint-disable-next-line no-undef
 export default Input;

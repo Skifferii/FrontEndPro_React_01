@@ -15,13 +15,20 @@ function Lesson03() {
         role={lionObj.role}
         animalImg={lionObj.image}
         //animalData = {lionObj}
-      />
+      >
+        <p>Madagaskar</p>
+        <div>{lionObj.skills[0]}</div>
+      </AnimalCard>
+
       <AnimalCard
         animalName={zebraObj.name}
         species={zebraObj.species}
         role={zebraObj.role}
         animalImg={zebraObj.image}
-      />
+      >
+        <p>Madagaskar</p>
+      </AnimalCard>
+
       <AnimalCard
         animalName={hippoObj.name}
         species={hippoObj.species}
